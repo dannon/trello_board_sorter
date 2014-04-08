@@ -9,8 +9,8 @@ import time
 #from requests_oauthlib import OAuth1Session  # This should really be used at some point.
 
 #g2roboto super secret!
-key = os.env.get('TRELLO_KEY')
-secret = os.environ.get('TRELLO_SECRET')
+key = os.env.get('TRELLO_AUTH_KEY')
+secret = os.environ.get('TRELLO_AUTH_SECRET')
 token = os.environ.get('TRELLO_OAUTH_TOKEN')
 
 #Trello id of the boards to sort.
